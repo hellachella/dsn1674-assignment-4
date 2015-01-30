@@ -51,7 +51,9 @@ h2 a, h2 a:hover, h2 a:visited{
 }
 
 
-
+main{
+	padding: 10px;
+}
 
 /****NAVBAR & HEADER****/
 
@@ -79,26 +81,25 @@ nav ul{
 
 	list-style-type: none;
 	padding: 0;
-	width: 25%;
-	display: inline;
+	margin: 0;
+	display:
 }
 
 nav ul li{
 
-	display: inline;
+	display: inline-block;
 	background-color: #703838;
 	padding: 10px;
 	border-radius: 5px;
+	margin: 3px;
 
 }
-
 
 
 figcaption{
 	font-size:.8rem;
 	font-style: italic;
 }
-
 
 
 ul#roman {
