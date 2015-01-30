@@ -1,68 +1,85 @@
+
+
+/*****General & Universal*****/
+
 html{
 	box-sizing: border-box;
 }
 
 
 *, *::before, *::after{
+
 	box-sizing: inherit;
 }
 
 
-
 body{
-	margin: 0;
+
 	line-height: 1.5;
 	font-family: tahoma, sans-serif;
 }
 
 div#wrapper{
-	width: 600px;
+
+	width: 320px;
 	background-color: #dbd6cf;
-	margin: 0 auto;
-}
 
-
-header{
-	background-color: #79756f;
-
-}
-
-header h1{
-	text-align: center;
-}
-
-figcaption{
-	font-size:.8rem;
-	font-style: italic;
-}
-
-h1, h2 {
-	font-family: Bevan, serif;
-	color: #fff;
-}
-
-h2 a, h2 a:hover, h2 a:visited{
-	color: #79756f;
 }
 
 b{
+
 	color: #79756f;
 	font-weight: normal;
 }
+
 
 .italic{
 
 	font-style: italic;
 }
 
+
+h1, h2 {
+
+	font-family: Bevan, serif;
+	color: #fff;
+}
+
+h2 a, h2 a:hover, h2 a:visited{
+
+	color: #79756f;
+}
+
+
+
+
+/****NAVBAR & HEADER****/
+
+
+
+header{
+
+	background-color: #79756f;
+}
+
+header h1{
+
+	text-align: center;
+	vertical-align: bottom;
+}
+
+
 nav{
+
 	text-align: center;
 }
+
+
 nav ul{
+
 	list-style-type: none;
 	padding: 0;
 	width: 25%;
-	height: 100%;
 	display: inline;
 }
 
@@ -72,7 +89,16 @@ nav ul li{
 	background-color: #703838;
 	padding: 10px;
 	border-radius: 5px;
+
 }
+
+
+
+figcaption{
+	font-size:.8rem;
+	font-style: italic;
+}
+
 
 
 ul#roman {
