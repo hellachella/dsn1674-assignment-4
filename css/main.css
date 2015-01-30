@@ -56,6 +56,13 @@ img {
 	width: 100%;
 }
 
+figure{
+
+	padding: 10px;
+	border: 2px solid #aaa;
+	border-radius: 10px;
+}
+
 main{
 	padding: 0 10px;
 			background-color: #dbd6cf;
@@ -152,7 +159,12 @@ a:visited{
 	color: #996666;
 }
 
+footer{
+		padding: 10px;
+}
+
 footer ul{
 	list-style-type: circle;
 	text-decoration: none;
+
 }
