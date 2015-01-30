@@ -30,6 +30,11 @@ b{
 	font-weight: normal;
 }
 
+.italic{
+
+	font-style: italic;
+}
+
 
 nav ul{
 	list-style-type: none;
