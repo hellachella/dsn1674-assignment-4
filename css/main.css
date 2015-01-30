@@ -17,12 +17,16 @@ body{
 
 	line-height: 1.5;
 	font-family: tahoma, sans-serif;
+		width: 320px;
+	width: 320px;
+	margin: 0 auto;x
 }
+
+
 
 div#wrapper{
 
-	width: 320px;
-	background-color: #dbd6cf;
+
 
 }
 
@@ -52,7 +56,9 @@ h2 a, h2 a:hover, h2 a:visited{
 
 
 main{
-	padding: 10px;
+	padding: 0 10px;
+	background-color: #dbd6cf;
+
 }
 
 /****NAVBAR & HEADER****/
@@ -62,12 +68,14 @@ main{
 header{
 
 	background-color: #79756f;
+	margin:0;
 }
 
 header h1{
 
 	text-align: center;
-	vertical-align: bottom;
+	margin-bottom: 0;
+
 }
 
 
@@ -81,8 +89,8 @@ nav ul{
 
 	list-style-type: none;
 	padding: 0;
-	margin: 0;
-	display:
+	margin-top: 0;
+	padding-bottom: 10px;
 }
 
 nav ul li{
@@ -91,7 +99,7 @@ nav ul li{
 	background-color: #703838;
 	padding: 10px;
 	border-radius: 5px;
-	margin: 3px;
+	margin: 2px;
 
 }
 
