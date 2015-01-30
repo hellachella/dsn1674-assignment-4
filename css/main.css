@@ -1,0 +1,86 @@
+body{
+	margin: 0;
+	line-height: 1.5;
+	font-family: tahoma, sans-serif;
+}
+
+div#wrapper{
+	width: 584px;
+	background-color: #dbd6cf;
+	margin: 0 auto;
+	padding: 10px;
+}
+
+figcaption{
+	font-size:.8rem;
+	font-style: italic;
+}
+
+h1, h2 {
+	font-family: Bevan, serif;
+	color: #79756f;
+}
+
+h2 a, h2 a:hover, h2 a:visited{
+	color: #79756f;
+}
+
+b{
+	color: #79756f;
+	font-weight: normal;
+}
+
+
+nav ul{
+	list-style-type: none;
+	padding: 0;
+	width: 25%;
+	height: 100%;
+}
+
+
+ul#roman {
+	list-style-type: lower-roman;
+}
+
+
+dl dt{
+	font-weight: bold;
+}
+
+dt{
+	float: left;
+	padding-right: 10px;
+}
+
+blockquote{
+	font-size:1.5rem;
+	font-style:italic;
+	font-family: normal;
+}
+
+#neil{
+	text-align: right;
+	font-size: .75rem;
+	color: #79756f;
+	padding-right:75px;
+	font-family: normal;
+}
+
+a{
+	color: #713837;
+	text-decoration: none;
+}
+
+a:hover{
+	color: red;
+}
+
+a:visited{
+	color: #996666;
+}
+
+footer ul{
+	list-style-type: circle;
+	text-decoration: none;
+}
