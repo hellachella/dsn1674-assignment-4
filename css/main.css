@@ -41,6 +41,13 @@ nav ul{
 	padding: 0;
 	width: 25%;
 	height: 100%;
+	display: inline;
+}
+
+nav ul li{
+
+	display: inline;
+	background-color: #703838;
 }
 
 
@@ -73,12 +80,12 @@ blockquote{
 }
 
 a{
-	color: #713837;
+	color: #fff;
 	text-decoration: none;
 }
 
 a:hover{
-	color: red;
+	color: #d0cfcf;
 }
 
 a:visited{
