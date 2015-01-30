@@ -25,9 +25,9 @@ body{
 
 	body{
 		width: 600px;
-		-webkit-transition: all 1s ease;
-		-moz-transition: all 1s ease;
-		transition: all 1s ease;
+		-webkit-transition: all 5s ease;
+		-moz-transition: all .5s ease;
+		transition: all .5s ease;
 	}
 
 
@@ -88,7 +88,6 @@ main{
 header{
 
 	background-color: #79756f;
-	margin:collapse;
 	overflow: hidden;
 }
 
@@ -172,12 +171,39 @@ a:visited{
 	color: #996666;
 }
 
+
+
 footer{
-		padding: 10px;
+		padding: 0 10px;
+		background-color: #79756f;
+
+
+
+}
+
+
+footer h2{
+margin: 0;
+}
+
+
+footer h2 a{
+	color: #dbd6cf;
+}
+
+footer h2 a:hover{
+	color:#dbd6cf;
 }
 
 footer ul{
 	list-style-type: circle;
 	text-decoration: none;
+	padding-left: 1rem;
+	padding-top: 0;
+	padding-bottom: 5px;
+		margin-top: 0;
+	margin-bottom: 0;
 
 }
+
+
