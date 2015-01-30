@@ -28,6 +28,10 @@ header{
 	background-color: #79756f;
 }
 
+header h1{
+	text-align: center;
+}
+
 figcaption{
 	font-size:.8rem;
 	font-style: italic;
@@ -52,7 +56,9 @@ b{
 	font-style: italic;
 }
 
-
+nav{
+	text-align: center;
+}
 nav ul{
 	list-style-type: none;
 	padding: 0;
